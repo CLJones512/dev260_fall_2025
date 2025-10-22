@@ -263,6 +263,17 @@ namespace StackLab
             //    - Push back to actionHistory
             //    - Increment totalOperations
             //    - Show what was restored
+            if (undoHistory.Count > 0)
+            {
+                string actionToRestore = undoHistory.Pop();
+                actionHistory.Push(actionToRestore);
+                totalOperations++;
+                Console.WriteLine($"Undid action: '{actionToRestore}'");
+            }
+            else
+            {
+                Console.WriteLine("No action to undo");
+            }
         }
 
         // TODO: Step 10 - Implement HandleRedo method (Advanced)
@@ -276,6 +287,17 @@ namespace StackLab
             //    - Push to undoHistory
             //    - Increment totalOperations
             //    - Show what was redone
+            if (actionHistory.Count > 0)
+            {
+                string actionToRemove = actionHistory.Pop();
+                undoHistory.Push(actionToRemove);
+                totalOperations++;
+                Console.WriteLine($"Redid action '{actionToRemove}'");
+            }
+            else
+            {
+                Console.WriteLine("Nothing to redo");
+            }
         }
 
         // TODO: Step 11 - Implement ShowStatistics method
@@ -288,6 +310,19 @@ namespace StackLab
             // - Total operations performed
             // - Whether stack is empty
             // - Current top action (if any)
+            Console.WriteLine("Current Session Statistics");
+            Console.WriteLine($"Current stack size: {actionHistory.Count}");
+            Console.WriteLine($"Undo stack size: {undoHistory.Count}");
+            Console.WriteLine($"Total operations - {totalOperations}");
+            Console.WriteLine($"Is the stack empty? {(actionHistory.Count == 0 ? "Yes" : "No")}");
+            if (actionHistory.Count > 0)
+            {
+                Console.WriteLine($"Current top action: '{actionHistory.Peek()}'");
+            }
+            else
+            {
+                Console.WriteLine("Current top action - none");
+            }
         }
 
         // TODO: Step 12 - Implement ShowSessionSummary method
@@ -300,6 +335,27 @@ namespace StackLab
             // - List remaining actions (if any)
             // - Encouraging message
             // - Wait for keypress before exit
+            Console.WriteLine("Final Session Summary:");
+            Console.WriteLine($"Total operations performed: {totalOperations}");
+            Console.WriteLine($"Final Stack Size: {actionHistory.Count}");
+            if (actionHistory.Count > 0)
+            {
+                Console.WriteLine("Remaining actions in stack");
+                int position = actionHistory.Count;
+                foreach (string action in actionHistory)
+                {
+                    Console.WriteLine($" {position:D2}, {action}");
+                    position--;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Stack is empty. Good cleanup!");
+            }
+            Console.WriteLine("Thank you for using the Stack Action History Manager! Keep stacking those actions!");
+            Console.WriteLine("Press Any Key to Exit");
+            Console.ReadKey();
+            
         }
     }
 }

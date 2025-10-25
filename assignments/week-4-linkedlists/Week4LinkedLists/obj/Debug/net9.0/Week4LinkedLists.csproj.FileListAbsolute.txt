@@ -1,0 +1,15 @@
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\bin\Debug\net9.0\Week4LinkedLists.exe
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\bin\Debug\net9.0\Week4LinkedLists.deps.json
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\bin\Debug\net9.0\Week4LinkedLists.runtimeconfig.json
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\bin\Debug\net9.0\Week4LinkedLists.dll
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\bin\Debug\net9.0\Week4LinkedLists.pdb
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.AssemblyInfoInputs.cache
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.AssemblyInfo.cs
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.csproj.CoreCompileInputs.cache
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.sourcelink.json
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.dll
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\refint\Week4LinkedLists.dll
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.pdb
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\Week4LinkedLists.genruntimeconfig.cache
+C:\Users\jones\dev260_fall_2025\assignments\week-4-linkedlists\Week4LinkedLists\obj\Debug\net9.0\ref\Week4LinkedLists.dll

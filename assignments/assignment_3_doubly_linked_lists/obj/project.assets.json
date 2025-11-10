@@ -8,31 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jones\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/zak_b_teaching/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Week4LinkedLists.csproj",
-      "projectName": "Week4LinkedLists",
-      "projectPath": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Week4LinkedLists.csproj",
-      "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\obj\\",
+      "projectUniqueName": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/Assignment3.csproj",
+      "projectName": "DoublyLinkedListAssignment",
+      "projectPath": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/Assignment3.csproj",
+      "packagesPath": "/Users/zak_b_teaching/.nuget/packages/",
+      "outputPath": "/Users/zak_b_teaching/dev260_fall_2025/assignments/assignment_3_doubly_linked_lists/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jones\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/zak_b_teaching/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -175,7 +175,7 @@ namespace QueueLab
                 Console.Write("Enter issue description: ");
                 description = Console.ReadLine()?.Trim() ?? "";
             }
-            
+
             // Input validation with multiple options - professional apps handle user choice
             if (string.IsNullOrWhiteSpace(description))
             {
@@ -184,9 +184,18 @@ namespace QueueLab
             }
             // TODO:
             // 1. Create ticket ID using ticketCounter (format: "T001", "T002", etc.)
+            string ticketId = $"T{ticketCounter:D3}";
+
             // 2. Create new SupportTicket with ID, description, "Normal" priority, and "User"
+            var ticket = new SupportTicket {TicketId = ticketId, Description = description, Priority = "Normal", SubmittedBy = "User" };
+
             // 3. Enqueue the ticket to ticketQueue
+            ticketQueue.Enqueue(ticket);
+
             // 4. Increment ticketCounter and totalOperations
+            ticketCounter++;
+            totalOperations++;
+
             // 5. Show success message with ticket ID, description, and queue position
         }
 

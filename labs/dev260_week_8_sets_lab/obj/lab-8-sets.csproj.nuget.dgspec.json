@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jones\\dev260_fall_2025\\labs\\lab-6-queues\\QueueLab.csproj": {}
+    "C:\\Users\\jones\\dev260_fall_2025\\labs\\dev260_week_8_sets_lab\\lab-8-sets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jones\\dev260_fall_2025\\labs\\lab-6-queues\\QueueLab.csproj": {
+    "C:\\Users\\jones\\dev260_fall_2025\\labs\\dev260_week_8_sets_lab\\lab-8-sets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jones\\dev260_fall_2025\\labs\\lab-6-queues\\QueueLab.csproj",
-        "projectName": "QueueLab",
-        "projectPath": "C:\\Users\\jones\\dev260_fall_2025\\labs\\lab-6-queues\\QueueLab.csproj",
+        "projectUniqueName": "C:\\Users\\jones\\dev260_fall_2025\\labs\\dev260_week_8_sets_lab\\lab-8-sets.csproj",
+        "projectName": "lab-8-sets",
+        "projectPath": "C:\\Users\\jones\\dev260_fall_2025\\labs\\dev260_week_8_sets_lab\\lab-8-sets.csproj",
         "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jones\\dev260_fall_2025\\labs\\lab-6-queues\\obj\\",
+        "outputPath": "C:\\Users\\jones\\dev260_fall_2025\\labs\\dev260_week_8_sets_lab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

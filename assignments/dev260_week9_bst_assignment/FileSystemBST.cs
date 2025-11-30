@@ -161,11 +161,9 @@ namespace FileSystemNavigator
             // 2. Filter by FileType.File AND matching extension
             // 3. Handle extension format (with or without leading dot);
             List<FileNode> collection = new List<FileNode>();
-            FileNode fileNode;
-            Func<FileNode, bool> filter = fileNode.Extension == extension;
-            TraverseAndCollect(root, collection, FileType.File, );
-            
-            throw new NotImplementedException("FindFilesByExtension method needs implementation");
+            Func<FileNode, bool> filter = (fileNode) => fileNode.Extension == extension && fileNode.Type == FileType.File;
+            TraverseAndCollect(root, collection, filter);
+            return collection;
         }
 
         /// <summary>
@@ -192,8 +190,10 @@ namespace FileSystemNavigator
             // 1. Validate input parameters (minSize <= maxSize)
             // 2. Use TraverseAndCollect with size range filter
             // 3. Only include FileType.File items
-            
-            throw new NotImplementedException("FindFilesBySize method needs implementation");
+            List<FileNode> collection = new List<FileNode>();
+            Func<FileNode, bool> filter = (fileNode) => fileNode.Size >= minSize && fileNode.Size <= maxSize;
+            TraverseAndCollect(root, collection, filter);
+            return collection;
         }
 
         /// <summary>
@@ -210,7 +210,7 @@ namespace FileSystemNavigator
         /// </summary>
         /// <param name="count">Number of largest files to return</param>
         /// <returns>List of largest files, sorted by size descending</returns>
-        public List<FileNode> FindLargestFiles(int count)
+        public List<FileNode>? FindLargestFiles(int count)
         {
             operationCount++;
             
@@ -220,6 +220,15 @@ namespace FileSystemNavigator
             // 2. Sort by Size property (descending)
             // 3. Take top 'count' items
             // 4. Handle edge case where count <= 0
+            if(count <= 0)
+            {
+                Console.WriteLine("List is empty");
+                return null;
+            }
+            List<FileNode> collection = new List<FileNode>();
+            Func<FileNode, bool> filter = (fileNode) => fileNode.Type == FileType.File;
+            TraverseAndCollect(root, collection, filter);
+            
             
             throw new NotImplementedException("FindLargestFiles method needs implementation");
         }
@@ -248,9 +257,13 @@ namespace FileSystemNavigator
             // 3. Handle empty tree case (return 0)
             long sizeOfAllFiles = 0;
             List<FileNode> collection = new List<FileNode>();
-            Func<FileNode, bool> filter = 
-            TraverseAndCollect(root, collection, );
-            throw new NotImplementedException("CalculateTotalSize method needs implementation");
+            Func<FileNode, bool> filter = (fileNode) => fileNode.Type == FileType.File;
+            TraverseAndCollect(root, collection, filter);
+            foreach(FileNode fileNode in collection)
+            {
+                sizeOfAllFiles+= fileNode.Size;
+            }
+            return sizeOfAllFiles;
         }
 
         /// <summary>

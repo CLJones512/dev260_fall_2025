@@ -228,9 +228,7 @@ namespace FileSystemNavigator
             List<FileNode> collection = new List<FileNode>();
             Func<FileNode, bool> filter = (fileNode) => fileNode.Type == FileType.File;
             TraverseAndCollect(root, collection, filter);
-            
-            
-            throw new NotImplementedException("FindLargestFiles method needs implementation");
+            return collection;
         }
 
         /// <summary>

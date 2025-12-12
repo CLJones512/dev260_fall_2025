@@ -84,6 +84,7 @@ namespace Assignment8
             // Hint: Use string.Trim() and string.ToLowerInvariant() for normalization
             // Hint: dictionary.Add() will automatically handle duplicates
             char[] punctuation = {'.', '!', '?', ':', ',', '*', '(',')','\"', '\t', '\r', '\n', ' '};
+            Console.WriteLine(filename);
             try
             {
                 string[] textArray = File.ReadAllLines(filename);
@@ -91,7 +92,10 @@ namespace Assignment8
                 {
                     s.Trim(punctuation);
                     s.ToLowerInvariant();
-                    dictionary.Add(s);
+                    if (!dictionary.Contains(s))
+                    {
+                        dictionary.Add(s);   
+                    }
                 }
                 return true;
             }
@@ -132,6 +136,7 @@ namespace Assignment8
             try
             {
                 string uniqueText = File.ReadAllText(filename);
+                currentFileName = filename;
                 allWordsInText = uniqueText.Split(' ', '\t', '\n', '\r').ToList();
                 string normalizedWord = "";
                 foreach(string s in allWordsInText)
@@ -145,7 +150,7 @@ namespace Assignment8
                 Console.WriteLine("File not found");
                 return false;
             }
-            throw new NotImplementedException("AnalyzeTextFile method not yet implemented");
+            return true;
         }
         
         /// <summary>
@@ -303,6 +308,7 @@ namespace Assignment8
                     break;
                 }
             }
+            return uniqueWordsSample;
             throw new NotImplementedException("GetUniqueWordsSample method not yet implemented");
         }
         

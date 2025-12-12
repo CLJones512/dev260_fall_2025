@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Week4LinkedLists.csproj",
-      "projectName": "Week4LinkedLists",
-      "projectPath": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Week4LinkedLists.csproj",
+      "projectUniqueName": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Assignment3.csproj",
+      "projectName": "DoublyLinkedListAssignment",
+      "projectPath": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\Assignment3.csproj",
       "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jones\\dev260_fall_2025\\assignments\\week-4-linkedlists\\Week4LinkedLists\\obj\\",
       "projectStyle": "PackageReference",
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

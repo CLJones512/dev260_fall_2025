@@ -311,8 +311,6 @@ namespace Lab9_BST
             InOrderRecursive(node.Left);
             Console.WriteLine(node.Employee);
             InOrderRecursive(node.Right);
-
-            throw new NotImplementedException("InOrderRecursive helper method needs implementation");
         }
         
         private int CountRecursive(TreeNode? node)

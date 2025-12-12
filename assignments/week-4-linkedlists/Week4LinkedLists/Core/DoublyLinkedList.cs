@@ -183,7 +183,7 @@ namespace Week4DoublyLinkedLists.Core
             Node<T> lastNode = new Node<T>(item);
 
             // 2. If list is empty: set both head and tail to new node
-            if (lastNode.Previous == null && lastNode.Next == null)
+            if (head == null)
             {
                 head = lastNode;
                 tail = lastNode;
@@ -277,6 +277,8 @@ namespace Week4DoublyLinkedLists.Core
             // TODO: Step 4a - Implement forward traversal and display
             // 1. Start from head node
             Node<T>? current = head;
+            Console.WriteLine(head);
+            Console.WriteLine(tail);
 
             // 4. Show empty list message if list is empty
             if(current == null)
@@ -649,7 +651,7 @@ namespace Week4DoublyLinkedLists.Core
             {
                 current = head;
                 nodeCount = 0;
-                while (nodeCount < index)
+                while (nodeCount <= index)
                 {
                     current = current!.Next;
                     nodeCount++;

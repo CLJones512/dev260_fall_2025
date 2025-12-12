@@ -251,7 +251,7 @@ namespace Assignment8
             {
                 // INSTRUCTOR NOTE: Test the student's LoadDictionary implementation
                 // The boolean return helps to understand success vs. failure
-                if (spellChecker.LoadDictionary("dictionary.txt"))
+                if (spellChecker.LoadDictionary("../../../dictionary.txt"))
                 {
                     Console.WriteLine($"✓ SUCCESS: Dictionary loaded successfully!");
                     Console.WriteLine($"  - Words in dictionary: {spellChecker.DictionarySize:N0}");

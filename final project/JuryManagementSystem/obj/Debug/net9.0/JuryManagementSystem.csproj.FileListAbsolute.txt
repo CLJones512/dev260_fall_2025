@@ -1,0 +1,15 @@
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\bin\Debug\net9.0\JuryManagementSystem.exe
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\bin\Debug\net9.0\JuryManagementSystem.deps.json
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\bin\Debug\net9.0\JuryManagementSystem.runtimeconfig.json
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\bin\Debug\net9.0\JuryManagementSystem.dll
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\bin\Debug\net9.0\JuryManagementSystem.pdb
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.AssemblyInfoInputs.cache
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.AssemblyInfo.cs
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.sourcelink.json
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.dll
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\refint\JuryManagementSystem.dll
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.pdb
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\JuryManagementSystem.genruntimeconfig.cache
+C:\Users\jones\dev260_fall_2025\final project\JuryManagementSystem\obj\Debug\net9.0\ref\JuryManagementSystem.dll
